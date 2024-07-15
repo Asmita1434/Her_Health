@@ -174,7 +174,7 @@ const sampleDiseases =[
         precautions: ["Screening history.", "HPV infection.", "Sexual history.", "Smoking.", "HIV infection.", "Birth control pills", "Multiple children"],
         source: "https://my.clevelandclinic.org/health/diseases/12216-cervical-cancer",
         image: "https://my.clevelandclinic.org/-/scassets/images/org/health/articles/12216-cervical-cancer",
-        category: "c",
+        category: "C",
     },
     {
         name: "Chlamydia",
@@ -185,7 +185,7 @@ const sampleDiseases =[
         precautions: ["Have sex with only one partner, who only has sex with you.", "Use condoms during intercourse, anal sex and oral sex.", "Use dental dams during oral sex or vagina-to-vagina contact."],
         source: "https://my.clevelandclinic.org/health/diseases/4023-chlamydia",
         image: "https://media.istockphoto.com/id/1128669705/photo/pelvic-pain-stomachache-concept-hands-of-young-woman-on-stomach-as-suffer-on-menstruation.jpg?s=612x612&w=is&k=20&c=wVFQYbL4qA-RSTQEtn270Vjeb82w3Fv1M75xaWVanQY=",
-        category: "c",
+        category: "C",
     },
     {
         name: "Chronic fatigue syndrome/myalgic encephalomyelitis (ME/CFS)",
@@ -218,7 +218,7 @@ const sampleDiseases =[
         precautions: ["Maintaining a healthy sleep routine.", "Managing stress with healthy coping mechanisms.", "Practicing regular self-care activities such as exercise, meditation and yoga."],
         source: "https://my.clevelandclinic.org/health/diseases/9290-depression#signs-and-symptoms",
         image: "https://my.clevelandclinic.org/-/scassets/images/org/health/articles/9290-depression",
-        category: "c",
+        category: "D",
     },
     {
         name: "Diabetes",
@@ -229,7 +229,7 @@ const sampleDiseases =[
         precautions: ["Limit alcohol intake.", "Manage your stress.", "Work to achieve a weight that’s healthy for you.", "Eat a healthy diet, such as the Mediterranean diet."],
         source: "https://my.clevelandclinic.org/health/diseases/7104-diabetes#symptoms-and-causes",
         image: "https://plus.unsplash.com/premium_photo-1679392532113-bee46deab9fa?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8ZGlhYmV0ZXN8ZW58MHx8MHx8fDA%3D",
-        category: "c",
+        category: "D",
     },
     {
         name: "Eating disorders",

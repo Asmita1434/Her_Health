@@ -104,6 +104,18 @@ app.get("/careguide", (req,res) => {
     res.render("./navbaritems/careguide.ejs");
 });
 
+//Query page
+
+app.get("/query", (req,res) => {
+    res.render("./includes/query.ejs");
+});
+
+//Contact page
+
+app.get("/contact", (req,res) => {
+    res.render("./includes/contact.ejs");
+});
+
 
 app.listen(8080, () => {
     console.log("server is listening to port 8080.");

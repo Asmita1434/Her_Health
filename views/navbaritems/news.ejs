@@ -4,12 +4,12 @@
     <b><h2 style="color: rgb(176 33 121); ">Recent News</h2><br></b>
     <% for(let news of allNews) { %>
         
-        <div class="card mb-3" style="height: 250px  !important; width: 1500px !important;" >
+        <div class="card mb-3" style="height: 250px  !important; width: 100% !important;" >
             <div class="row g-0">
               <div class="col-md-4">
-                <img src="<%= news.image %>" class="img-fluid rounded-start" alt="..."  style="height: 200px !important; width: 400px !important;">
+                <img src="<%= news.image %>" class="img-fluid rounded-start" alt="..."  style="height: 250px !important; width: 300px !important;">
               </div>
-              <div class="col-md-8">
+              <div class="col-md-8" >
                 <div class="card-body">
                   <h5 class="card-title"><%= news.title %></h5>
                   <p class="card-text"><%= news.description %></p>
@@ -20,7 +20,7 @@
                 </div>
               </div>
             </div>
-          </div>
+          </div><br><br><br><br>
           
      <% } %>   
 </body>
